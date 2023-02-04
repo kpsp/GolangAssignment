@@ -25,9 +25,9 @@ An example body for this post request :
          
 READ - GET  -  http://localhost:6004/books
                
-               (This returns all the books present in the list)
+               This returns all the books present in the list
                
-GET  -  http://localhost:6004/book/{id}
+READ - GET  -  http://localhost:6004/book/{id}
                
                (This returns the details of the book with the given id)
                (example : http://localhost:6004/book/3 gives the info of the book with id 3)
