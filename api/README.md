@@ -14,20 +14,20 @@ Home page - http://localhost:6004
 
 CREATE - POST - http://localhost:6004/book
                
-               (This adds a new book to the given list of books with details mentioned in the request body)
-               An example body for this post request : 
-               {
-                  "Id": "9", 
-                  "Title": "New book", 
-                  "Author": "New guy", 
-                  "Price": "20.00" 
-               }
+This adds a new book to the given list of books with details mentioned in the request body
+An example body for this post request : 
+{
+  "Id": "9", 
+  "Title": "New book", 
+  "Author": "New guy", 
+  "Price": "20.00" 
+}
          
 READ - GET  -  http://localhost:6004/books
                
                (This returns all the books present in the list)
                
-       GET  -  http://localhost:6004/book/{id}
+GET  -  http://localhost:6004/book/{id}
                
                (This returns the details of the book with the given id)
                (example : http://localhost:6004/book/3 gives the info of the book with id 3)
